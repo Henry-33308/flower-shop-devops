@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ - PrincityVN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📞 Liên hệ với PrincityVN</h1>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="su-kien.html">Sự kiện</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main class="contact-container">
+    <h2>Gửi phản hồi hoặc đặt hoa</h2>
+    <form onsubmit="alert('Gửi thành công!'); return false;">
+      <label for="name">Họ tên:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Nội dung:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Gửi liên hệ</button>
+    </form>
+
+    <hr>
+
+    <h2>🏢 Địa chỉ liên hệ</h2>
+    <p>Z115, TP. Thái Nguyên, Việt Nam</p>
+
+    <div class="map-box">
+      <iframe
+        src="https://www.google.com/maps?q=z115%20Th%C3%A1i%20Nguy%C3%AAn&output=embed"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+  </main>
+</body>
+</html>
